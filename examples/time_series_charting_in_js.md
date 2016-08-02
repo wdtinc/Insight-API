@@ -196,6 +196,8 @@ $(document).ready(function(){
 ```
 
 Your resulting image should look something similiar to this:
+
+
 ![img](/static/img/daily_precip.png)
 
 This is a simple example, but Insight endpoints can be mixed and matched to create a wide range of useful charts and visualizations. To see the variety of data Insight provides, [check out the docs](http://docs.api.wdtinc.com/insight-api/en/latest/overview.html).
