@@ -3,7 +3,7 @@ Charting Time Series in JS
 
 The Time Series feature in the Insight API allows us to easily query data and build charts for locations and assets over periods of time. Let's look at basic example of how we'd build a Daily Precipitation line chart using the [Highstock](http://www.highcharts.com/stock/demo) charting library along with [jQuery](http://api.jquery.com/jquery.ajax/). We're going to compare rainfall between OKC and Jacksonville for June of this year.
 
-**TLDR;** *check out this [JSFiddle]() for the full example.*
+**TLDR;** *check out this [JSFiddle](https://jsfiddle.net/h9g0sfme/6/) for the full example.*
 
 Prerequisites
 -------------
