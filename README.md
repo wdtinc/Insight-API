@@ -12,7 +12,7 @@ We currently provide client libraries for the following languages:
 # Examples
 Check out all of our examples [here]().
 
-#### [Charting Time Series in JS](/examples/time_series_charting_in_js.md)
+### [Charting Time Series in JS](/examples/time_series_charting_in_js.md)
 An example of how to use jQuery and HighStocks to create Daily Precipitation charts.
 
 ![img](/static/img/daily_precip.png)
