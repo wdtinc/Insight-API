@@ -16,4 +16,6 @@ Check out all of our examples [here]().
 An example of how to use jQuery and HighStocks to create Daily Precipitation charts.
 
 <br />
+<br />
+<br />
 ![img](/static/img/daily_precip.png)
