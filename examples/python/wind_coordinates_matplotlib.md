@@ -49,10 +49,11 @@ def create_uv_grid(bbox, valid_time, precision=1.0):
 
     for x in range(X.shape[0]):
         for y in range(Y.shape[1]):
+
+            # Coords
             lat = Y[x][y]
             lon = X[x][y]
             
-            x, y
             # Call Insight API and Calculate UV
             wind_speed = ws.location(lat, lon, start=valid_time, end=valid_time).series[0]['value']
             wind_direction = wd.location(lat, lon, start=valid_time, end=valid_time).series[0]['value']
