@@ -1,6 +1,6 @@
 
 # Streamplotting Wind Coordinates
-Let's take a look at how we can create a matplotlib streamplot using Insight API's Wind Direction and Wind Speed location endpoints.
+Let's take a look at how we can create a [matplotlib streamplot](http://matplotlib.org/examples/images_contours_and_fields/streamplot_demo_features.html) using Insight API's Wind Direction and Wind Speed location endpoints.
 
 *It is recommended that you follow along with this example in a [Jupyter notebook](http://jupyter.org/).*
 
