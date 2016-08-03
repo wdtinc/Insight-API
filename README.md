@@ -11,5 +11,9 @@ Check out all of our examples [here](/examples).
 ### [Charting Time Series in JS](/examples/time_series_charting_in_js.md)
 An example of how to use jQuery and HighStocks to create Daily Precipitation charts.
 
-
 ![img](/static/img/daily_precip.png)
+
+### [Wind Coordinate Streamplotting](/examples/python/wind_coordinates_matplotlib.md)
+Use Insight's Python client library to build streamplots in matplotlib.
+
+![img](/static/img/wind_streamplot.png)
