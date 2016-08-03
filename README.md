@@ -13,7 +13,7 @@ An example of how to use jQuery and HighStocks to create Daily Precipitation cha
 
 ![img](/static/img/daily_precip.png)
 
-### [Wind Coordinate Streamplotting](/examples/python/wind_coordinates_matplotlib.md)
+### [Streamplotting Wind Coordinates](/examples/python/wind_coordinates_matplotlib.md)
 Use Insight's Python client library to build streamplots in matplotlib.
 
 ![img](/static/img/wind_streamplot.png)
