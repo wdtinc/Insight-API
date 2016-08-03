@@ -7,6 +7,7 @@ Let's take a look at how we can create a [matplotlib streamplot](http://matplotl
 ## Prerequisites
 - [skywise-insight-py](https://github.com/wdtinc/skywise-insight-py)
 - [matplotlib](http://matplotlib.org/users/installing.html)
+- [numpy](http://www.scipy.org/scipylib/download.html)
 
 ## Calculating Wind Coordinates
 The Insight API provides endpoints for both Wind Direction and Speed, but not for Wind Coordinates (at least not yet). Here's a simple Python function to accomplish this: 
