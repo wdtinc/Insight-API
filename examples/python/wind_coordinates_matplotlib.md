@@ -72,7 +72,7 @@ def create_uv_grid(bbox, valid_time, precision=1.0):
 ## Creating the Stream Plot
 Now that we can obtain all of our necessary values, let's load them into a matplotlib streamplot. It will take some time for all of your calls are complete:
 
-*We'll show you how to quickly make calls to Insight API asynchronously in future tutorial.*
+*We'll show you how to quickly make calls to Insight API asynchronously in a future tutorial.*
 
 ```python
 %matplotlib inline
