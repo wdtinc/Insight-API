@@ -5,6 +5,11 @@ The SkyWise Insight API puts access to high quality weather data in the hands of
 ## Obtain an API Key
 Sign up for a free demo plan [here](http://skywise.wdtinc.com).
 
+## Client Libraries
+We currently support client libraries in the following languages:
+
+- [Python](https://github.com/wdtinc/skywise-insight-py)
+
 ## Examples
 Check out all of our examples [here](/examples).
 
