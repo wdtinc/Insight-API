@@ -245,7 +245,11 @@ if __name__ == '__main__':
     main()
 ```
 
-Refresh `county_map.html` and you should see:
+Your final result should look like this:
 
 ![img](/static/img/bokeh_counties_plotted.png)
 
+Next Steps
+----------
+
+You can add other effects to your map with Bokeh if you want to take this tutorial further. In particular, you might look at creating a [Hover Effect](http://bokeh.pydata.org/en/latest/docs/gallery/texas.html) to display county precip values.
