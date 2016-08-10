@@ -27,4 +27,4 @@ Use Insight's Python client library to build streamplots in matplotlib.
 
 Learn how to create assets and display them using Bokeh. In this tutorial, we create scripts to generate assets from geojson, gather precipitation data, and display them on a choropleth map.
 
-![img](/static/img/bokeh_counties_plotted.png)
+![img](/static/img/bokeh_counties_plotted.png =600x)
