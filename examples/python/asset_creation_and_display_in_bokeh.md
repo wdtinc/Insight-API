@@ -22,10 +22,10 @@ virtualenv venv && source venv/bin/activate
 pip install skywise-insight arrow bokeh geojson
 ```
 
-Then, we'll [download](https://github.com/wdtinc/Insight-API/raw/asset-creation/examples/python/data/ok_counties.zip) and unpack our county geojson files: 
+Then, we'll [download](https://github.com/wdtinc/Insight-API/raw/static/data/ok_counties.zip) and unpack our county geojson files: 
 
 ```bash
-curl -L https://github.com/wdtinc/Insight-API/raw/asset-creation/examples/python/data/ok_counties.zip > ok_counties.zip
+curl -L https://github.com/wdtinc/Insight-API/raw/master/static/data/ok_counties.zip > ok_counties.zip
 unzip ok_counties.zip -d data
 ```
 
@@ -183,7 +183,7 @@ You should be able to open up the newly created `county_map.html` to see our map
 
 ### Plot and Color Your Assets
 
-Time to add counties to the map using Bokeh [Patch Glyphs](http://bokeh.pydata.org/en/0.11.1/docs/user_guide/plotting.html#patch-glyphs). This step will create a patch and associate a color value with it based on the value of the asset's average precipitation.:
+Time to add counties to the map using Bokeh [Patch Glyphs](http://bokeh.pydata.org/en/0.11.1/docs/user_guide/plotting.html#patch-glyphs). This step will create a patch and associate a color value with it based on the value of the asset's average precipitation:
 
 ```python
 # Imports
