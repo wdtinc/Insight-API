@@ -22,7 +22,7 @@ virtualenv venv && source venv/bin/activate
 pip install skywise-insight arrow bokeh geojson
 ```
 
-Then, we'll [download](https://github.com/wdtinc/Insight-API/raw/static/data/ok_counties.zip) and unpack our county geojson files: 
+Then, we'll [download](https://github.com/wdtinc/Insight-API/raw/master/static/data/ok_counties.zip) and unpack our county geojson files: 
 
 ```bash
 curl -L https://github.com/wdtinc/Insight-API/raw/master/static/data/ok_counties.zip > ok_counties.zip
