@@ -3,6 +3,8 @@ Assets: Creation and Display
 
 In this tutorial, we're going to create assets from geojson for every county in Oklahoma using Insight API's [Python client library](https://github.com/wdtinc/skywise-insight-py). Then, we're going to walk through creating a [choropleth map](https://en.wikipedia.org/wiki/Choropleth_map) using [Bokeh](http://bokeh.pydata.org/en/latest/).
 
+<img src="/static/img/bokeh_counties_plotted.png" width="600" />
+
 We'll accomplish this by writing several small, lightweight scripts.
 
 Prereqs
