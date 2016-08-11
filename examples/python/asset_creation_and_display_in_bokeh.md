@@ -249,8 +249,6 @@ Your final result should look like this:
 
 ![img](/static/img/bokeh_counties_plotted.png)
 
-*[Interactive Example](/static/html/county_map.html)*
-
 Next Steps
 ----------
 
