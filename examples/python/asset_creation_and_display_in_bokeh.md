@@ -237,7 +237,7 @@ def main():
     # Load Asset Glyphs 
     with open('asset_data.json', 'r') as f:
         asset_json = json.loads(f.read())
-    for asset in asset_json:
+    for asset in asset_json['assets']:
         plot_asset(plot, asset)
 
     # Display Plot
