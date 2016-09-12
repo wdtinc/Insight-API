@@ -111,7 +111,7 @@ def main():
         assets.append(asset)
     
     # Collect Precipitation Data
-    asset_data_json = []
+    asset_precip = []
     for asset in assets:
         precip = DailyPrecipitation.asset(asset.id, start=start ,end=end)
         average_precip = precip.accumulationStatistics['mean']
@@ -125,7 +125,7 @@ def main():
     # Write Precip Data to JSON File
     with open('asset_data.json', 'w') as f:
         asset_data_json = json.dumps({
-            'assets': asset_data_json
+            'assets': asset_precip
         })
         f.write(asset_data_json)
 
